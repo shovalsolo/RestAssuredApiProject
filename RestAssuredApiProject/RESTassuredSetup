@@ -1,0 +1,37 @@
+RestAssured documentation
+
+1. Create a Maven project
+
+2. Add the following dependencies to the POM.xml file
+rest-assured
+testng
+
+Optional to add also:
+JsonPath
+XmlPath
+JSON Schema Validation
+
+API to use
+https://reqres.in/
+
+
+
+3. Keywords used in BDD
+
+given()-set cookies ,  add authentication , add parameters , set headers info etc...
+
+when()-get, post , put , delete - the actual call
+
+then()- validation status code , extract response , extract headers cookies & response body...
+
+
+
+4. Validations:
+
+Status Code
+
+Status Line
+
+Response Body
+
+header
