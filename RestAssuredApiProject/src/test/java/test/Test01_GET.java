@@ -1,5 +1,5 @@
 /* 
- * This test is an example of get requestneed to import the following:
+ * This test is an example of get request need to import the following:
  * import static io.restassured.RestAssured.*;								//When importing RestAssured in a static way ne need to create an object of RestAssured
  * import static io.restassured.matcher.RestAssuredMatchers.*;				//Need to include
  * import static org.hamcrest.Matchers.*;									//Need to include
@@ -56,7 +56,4 @@ public class Test01_GET {
 			.then()
 				.statusCode(201);													//Checking the the status code from this get call is 201 * this will fail
 	}
-
-	
-
 }
