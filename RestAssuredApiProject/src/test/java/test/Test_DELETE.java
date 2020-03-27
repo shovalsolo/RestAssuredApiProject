@@ -12,10 +12,8 @@ package test;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.*;
 
-import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
-import io.restassured.http.ContentType;
 
 public class Test_DELETE {
 

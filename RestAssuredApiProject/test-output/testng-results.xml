@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2481" started-at="2020-03-27T12:48:28 EDT" finished-at="2020-03-27T12:48:30 EDT">
+  <suite name="Default suite" duration-ms="1774" started-at="2020-03-27T17:49:16 EDT" finished-at="2020-03-27T17:49:18 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2481" started-at="2020-03-27T12:48:28 EDT" finished-at="2020-03-27T12:48:30 EDT">
-      <class name="test.Test01_GET">
-        <test-method status="PASS" signature="test_04()[pri:0, instance:test.Test01_GET@79be0360]" name="test_04" duration-ms="2437" started-at="2020-03-27T12:48:28 EDT" finished-at="2020-03-27T12:48:30 EDT">
+    <test name="Default test" duration-ms="1774" started-at="2020-03-27T17:49:16 EDT" finished-at="2020-03-27T17:49:18 EDT">
+      <class name="localMockApi.Test_DELETE">
+        <test-method status="PASS" signature="test_1()[pri:0, instance:localMockApi.Test_DELETE@22a67b4]" name="test_1" duration-ms="1726" started-at="2020-03-27T17:49:16 EDT" finished-at="2020-03-27T17:49:18 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_04 -->
-      </class> <!-- test.Test01_GET -->
+        </test-method> <!-- test_1 -->
+      </class> <!-- localMockApi.Test_DELETE -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
