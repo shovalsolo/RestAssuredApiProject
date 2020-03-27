@@ -38,6 +38,6 @@ public class Test_PUT {
 			.put("https://reqres.in/api/users/2")
 		.then()
 			.log().all()
-			.statusCode(200);											//The status of Okay is 200
+			.statusCode(200);											//The status of OK is 200
 	}
 }
