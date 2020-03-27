@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5266" started-at="2020-03-27T12:04:26 EDT" finished-at="2020-03-27T12:04:31 EDT">
+  <suite name="Default suite" duration-ms="4084" started-at="2020-03-27T12:25:59 EDT" finished-at="2020-03-27T12:26:03 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5266" started-at="2020-03-27T12:04:26 EDT" finished-at="2020-03-27T12:04:31 EDT">
-      <class name="test.Test_POST">
-        <test-method status="PASS" signature="test_1_post()[pri:0, instance:test.Test_POST@22a67b4]" name="test_1_post" duration-ms="4831" started-at="2020-03-27T12:04:26 EDT" finished-at="2020-03-27T12:04:31 EDT">
+    <test name="Default test" duration-ms="4084" started-at="2020-03-27T12:25:59 EDT" finished-at="2020-03-27T12:26:03 EDT">
+      <class name="test.Test_PUT">
+        <test-method status="PASS" signature="test_1_put()[pri:0, instance:test.Test_PUT@22a67b4]" name="test_1_put" duration-ms="4017" started-at="2020-03-27T12:25:59 EDT" finished-at="2020-03-27T12:26:03 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_1_post -->
-        <test-method status="PASS" signature="test_2_post()[pri:0, instance:test.Test_POST@22a67b4]" name="test_2_post" duration-ms="344" started-at="2020-03-27T12:04:31 EDT" finished-at="2020-03-27T12:04:31 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_2_post -->
-      </class> <!-- test.Test_POST -->
+        </test-method> <!-- test_1_put -->
+      </class> <!-- test.Test_PUT -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
