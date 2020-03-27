@@ -1,6 +1,6 @@
 /* 
  * This test is an example of get request need to import the following:
- * import static io.restassured.RestAssured.*;								//When importing RestAssured in a static way ne need to create an object of RestAssured
+ * import static io.restassured.RestAssured.*;								//When importing RestAssured in a static way we need to create an object of RestAssured
  * import static io.restassured.matcher.RestAssuredMatchers.*;				//Need to include
  * import static org.hamcrest.Matchers.*;									//Need to include
  * import io.restassured.response.Response;
