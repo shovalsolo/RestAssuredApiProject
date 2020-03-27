@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3397" started-at="2020-03-26T17:01:17 EDT" finished-at="2020-03-26T17:01:21 EDT">
+  <suite name="Default suite" duration-ms="66" started-at="2020-03-27T10:19:07 EDT" finished-at="2020-03-27T10:19:07 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3397" started-at="2020-03-26T17:01:17 EDT" finished-at="2020-03-26T17:01:21 EDT">
-      <class name="test.Tests_GET">
-        <test-method status="PASS" signature="test_1()[pri:0, instance:test.Tests_GET@cd2dae5]" name="test_1" duration-ms="3347" started-at="2020-03-26T17:01:18 EDT" finished-at="2020-03-26T17:01:21 EDT">
+    <test name="Default test" duration-ms="66" started-at="2020-03-27T10:19:07 EDT" finished-at="2020-03-27T10:19:07 EDT">
+      <class name="test.Test_POST">
+        <test-method status="PASS" signature="test_1_post()[pri:0, instance:test.Test_POST@cd2dae5]" name="test_1_post" duration-ms="10" started-at="2020-03-27T10:19:07 EDT" finished-at="2020-03-27T10:19:07 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_1 -->
-      </class> <!-- test.Tests_GET -->
+        </test-method> <!-- test_1_post -->
+      </class> <!-- test.Test_POST -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
