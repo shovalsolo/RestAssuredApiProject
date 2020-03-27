@@ -1,5 +1,5 @@
 /* 
- * This test is an example of PUT request need to import the following:
+ * This test is an example of PATCH request need to import the following:
  * import static io.restassured.RestAssured.*;								//When importing RestAssured in a static way we need to create an object of RestAssured										
  * Add one of the following to POM.xml
  * json.simple - this is the one i selected
@@ -40,5 +40,4 @@ public class Test_PATCH {
 			.log().all()
 			.statusCode(200);											//The status of OK is 200
 	}
-
 }

@@ -56,4 +56,12 @@ public class Test01_GET {
 			.then()
 				.statusCode(201);													//Checking the the status code from this get call is 201 * this will fail
 	}
+	
+	@Test
+	void test_04() {
+		given()
+			.get("https://reqres.in/api/users")
+			.then()
+				.statusCode(200).log().all();										//Checking the the status code from this get call is 201 * this will fail
+	}
 }
