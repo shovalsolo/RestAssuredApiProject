@@ -23,7 +23,7 @@ public class Test_POST {
 		JSONObject request = new JSONObject();						//Creating the object and adding the data - the ID is auto generated
 		request.put("firstName", "Tom");
 		request.put("lastName", "Green");
-		request.put("subjectId", "3");
+		request.put("subjectId", 3);
 		
 		given()
 			.header("Content-Type","application/json")

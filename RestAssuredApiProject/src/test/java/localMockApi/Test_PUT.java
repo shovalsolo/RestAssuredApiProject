@@ -25,6 +25,7 @@ public class Test_PUT {
 		JSONObject request = new JSONObject();						//Creating the object and adding the data - the ID is auto generated
 		request.put("firstName", "Ronny");
 		request.put("lastName", "Rock");
+		request.put("subjectId", 1);
 		
 		given()
 			.header("Content-Type","application/json")
