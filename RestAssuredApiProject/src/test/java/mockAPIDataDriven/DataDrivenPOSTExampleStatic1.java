@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
 
-public class DataDrivenExample1 {
+public class DataDrivenPOSTExampleStatic1 {
 	
 	@DataProvider(name="DataForPost")										//Using TestNG @DataProvider with name of DataForPost that we will pass to the function to use
 	public Object [][] dataForPost() {										//This function is returning a 2 dimensional object 

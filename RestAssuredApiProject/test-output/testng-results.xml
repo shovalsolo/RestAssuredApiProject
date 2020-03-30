@@ -1,55 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1849" started-at="2020-03-30T15:19:26 EDT" finished-at="2020-03-30T15:19:27 EDT">
+  <suite name="Default suite" duration-ms="2234" started-at="2020-03-30T15:45:21 EDT" finished-at="2020-03-30T15:45:23 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1849" started-at="2020-03-30T15:19:26 EDT" finished-at="2020-03-30T15:19:27 EDT">
-      <class name="mockAPIDataDriven.DataDrivenExample1">
-        <test-method status="PASS" signature="test_1(java.lang.String, java.lang.String, int)[pri:0, instance:mockAPIDataDriven.DataDrivenExample1@a7e666]" name="test_1" duration-ms="1745" started-at="2020-03-30T15:19:26 EDT" data-provider="DataForPost" finished-at="2020-03-30T15:19:27 EDT">
+    <test name="Default test" duration-ms="2234" started-at="2020-03-30T15:45:21 EDT" finished-at="2020-03-30T15:45:23 EDT">
+      <class name="mockAPIDataDriven.DataDrivenDeleteExample3">
+        <test-method status="PASS" signature="test_1(int)[pri:0, instance:mockAPIDataDriven.DataDrivenDeleteExample3@a7e666]" name="test_1" duration-ms="1955" started-at="2020-03-30T15:45:21 EDT" data-provider="DataToDelete" finished-at="2020-03-30T15:45:23 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Alont]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sok]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
+                <![CDATA[12]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_1 -->
-        <test-method status="PASS" signature="test_1(java.lang.String, java.lang.String, int)[pri:0, instance:mockAPIDataDriven.DataDrivenExample1@a7e666]" name="test_1" duration-ms="35" started-at="2020-03-30T15:19:27 EDT" data-provider="DataForPost" finished-at="2020-03-30T15:19:27 EDT">
+        <test-method status="PASS" signature="test_1(int)[pri:0, instance:mockAPIDataDriven.DataDrivenDeleteExample3@a7e666]" name="test_1" duration-ms="154" started-at="2020-03-30T15:45:23 EDT" data-provider="DataToDelete" finished-at="2020-03-30T15:45:23 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Tal]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[De]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
+                <![CDATA[14]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_1 -->
-      </class> <!-- mockAPIDataDriven.DataDrivenExample1 -->
+        <test-method status="PASS" signature="test_1(int)[pri:0, instance:mockAPIDataDriven.DataDrivenDeleteExample3@a7e666]" name="test_1" duration-ms="47" started-at="2020-03-30T15:45:23 EDT" data-provider="DataToDelete" finished-at="2020-03-30T15:45:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+      </class> <!-- mockAPIDataDriven.DataDrivenDeleteExample3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
