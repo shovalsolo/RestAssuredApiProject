@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>												<!--This xml is running DataDrivenDeleteExampleWithParameterFromXML6 -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="userId" value="14"></parameter>								<!-- Adding the parameter and the value to delete -->
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="mockAPIDataDriven.DataDrivenDeleteExampleWithParameterFromXML6"></class>
+		</classes>
+	</test> 																		<!-- Test -->
+</suite>																			<!-- Suite -->
