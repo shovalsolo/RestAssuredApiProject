@@ -7,7 +7,7 @@
  * jackson-core
  * json
  */
-package test;
+package basicTest;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.*;

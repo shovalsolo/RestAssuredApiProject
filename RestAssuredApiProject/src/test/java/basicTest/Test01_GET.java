@@ -6,7 +6,7 @@
  * import io.restassured.response.Response;
  */
 
-package test;
+package basicTest;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

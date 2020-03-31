@@ -6,7 +6,7 @@
  * import io.restassured.response.Response;
  */
 
-package test;
+package basicTest;
 
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;								//When importing RestAssured in a static way we need to create an object of RestAssured
