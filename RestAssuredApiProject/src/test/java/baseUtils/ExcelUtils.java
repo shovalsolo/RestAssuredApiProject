@@ -4,6 +4,7 @@
  * 1. ExcelUtils- Contractor getting 2 parameters file location and sheet name creating XSSFWorkbook object
  * 2. getRowCount- This function will print the number of rows in a sheet
  * 3. getCellData- This function will print the data in a sheet
+ * 4. getColCount- This function will print the number of columns in a sheet
  * . XSSFWorkbook- XSSFWorkbook instance for excel.xslx files
  * . XSSFSheet- XSSFSheet and giving the sheet name
  */
