@@ -17,10 +17,10 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtils {
-	
+
 	static XSSFWorkbook workbook;
 	static XSSFSheet sheet;
-	
+
 	public ExcelUtils(String excelPath, String sheetName) {					//Contractor that is getting 2 parameters file location and sheet name
 		try {
 			workbook = new XSSFWorkbook(excelPath);							//Creating an XSSFWorkbook instance for excel.xslx files
@@ -32,7 +32,7 @@ public class ExcelUtils {
 			e.printStackTrace();											//Will print the line of the error
 		}
 	}
-	
+
 	public static void getCellData(int rowNom , int colNum) {
 
 		DataFormatter fomater = new DataFormatter();						//Creating an object of DataFormatter that will format string or integer 
@@ -40,10 +40,16 @@ public class ExcelUtils {
 
 		System.out.println(value);
 	}
-	
+
 	public static void getRowCount() {
-		
+
 		int rowCount = sheet.getPhysicalNumberOfRows();						//Getting the number of rows
 		System.out.println("The number of Rows is : "+ rowCount);			//Printing the number of rows		
+	}
+
+	public static void getColCount() {
+		int colCount = 0;
+		colCount =  sheet.getRow(0).getPhysicalNumberOfCells();					//Saving the number of columns to a parameter
+		System.out.println("The number of columns is : "+ colCount);			//Printing the number of rows		
 	}
 }
