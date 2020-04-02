@@ -1,6 +1,6 @@
 /* 
  * This is a class that is getting information from excel file data.xlsx and this class is called from ExcelUtilsDemo
- * Using 
+ * 
  * 1. ExcelUtils- Contractor getting 2 parameters file location and sheet name creating XSSFWorkbook object
  * 2. getRowCount- This function will print the number of rows in a sheet
  * 3. getCellData- This function will print the data in a sheet
